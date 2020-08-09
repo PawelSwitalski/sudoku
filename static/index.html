@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+    <header>
+        <h1>Sudoku</h1>
+    </header>
+    
+
+    <main>
+        <article id="article">
+            <div class="board">
+
+                <div class="sector" id="s0">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s0c0"></div>
+                        <div class="cell" id="s0c1"></div>
+                        <div class="cell" id="s0c2"></div>
+
+                        <div class="cell" id="s0c3"></div>
+                        <div class="cell" id="s0c4"></div>
+                        <div class="cell" id="s0c5"></div>
+
+                        <div class="cell" id="s0c6"></div>
+                        <div class="cell" id="s0c7"></div>
+                        <div class="cell" id="s0c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s1">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s1c0"></div>
+                        <div class="cell" id="s1c1"></div>
+                        <div class="cell" id="s1c2"></div>
+
+                        <div class="cell" id="s1c3"></div>
+                        <div class="cell" id="s1c4"></div>
+                        <div class="cell" id="s1c5"></div>
+
+                        <div class="cell" id="s1c6"></div>
+                        <div class="cell" id="s1c7"></div>
+                        <div class="cell" id="s1c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s2">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s2c0"></div>
+                        <div class="cell" id="s2c1"></div>
+                        <div class="cell" id="s2c2"></div>
+
+                        <div class="cell" id="s2c3"></div>
+                        <div class="cell" id="s2c4"></div>
+                        <div class="cell" id="s2c5"></div>
+
+                        <div class="cell" id="s2c6"></div>
+                        <div class="cell" id="s2c7"></div>
+                        <div class="cell" id="s2c8"></div>
+                    </div>
+                </div>
+
+
+                <div class="sector" id="s3">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s3c0"></div>
+                        <div class="cell" id="s3c1"></div>
+                        <div class="cell" id="s3c2"></div>
+
+                        <div class="cell" id="s3c3"></div>
+                        <div class="cell" id="s3c4"></div>
+                        <div class="cell" id="s3c5"></div>
+
+                        <div class="cell" id="s3c6"></div>
+                        <div class="cell" id="s3c7"></div>
+                        <div class="cell" id="s3c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s4">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s4c0"></div>
+                        <div class="cell" id="s4c1"></div>
+                        <div class="cell" id="s4c2"></div>
+
+                        <div class="cell" id="s4c3"></div>
+                        <div class="cell" id="s4c4"></div>
+                        <div class="cell" id="s4c5"></div>
+
+                        <div class="cell" id="s4c6"></div>
+                        <div class="cell" id="s4c7"></div>
+                        <div class="cell" id="s4c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s5">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s5c0"></div>
+                        <div class="cell" id="s5c1"></div>
+                        <div class="cell" id="s5c2"></div>
+
+                        <div class="cell" id="s5c3"></div>
+                        <div class="cell" id="s5c4"></div>
+                        <div class="cell" id="s5c5"></div>
+
+                        <div class="cell" id="s5c6"></div>
+                        <div class="cell" id="s5c7"></div>
+                        <div class="cell" id="s5c8"></div>
+                    </div>
+                </div>
+
+
+                <div class="sector" id="s6">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s6c0"></div>
+                        <div class="cell" id="s6c1"></div>
+                        <div class="cell" id="s6c2"></div>
+
+                        <div class="cell" id="s6c3"></div>
+                        <div class="cell" id="s6c4"></div>
+                        <div class="cell" id="s6c5"></div>
+
+                        <div class="cell" id="s6c6"></div>
+                        <div class="cell" id="s6c7"></div>
+                        <div class="cell" id="s6c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s7">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s7c0"></div>
+                        <div class="cell" id="s7c1"></div>
+                        <div class="cell" id="s7c2"></div>
+
+                        <div class="cell" id="s7c3"></div>
+                        <div class="cell" id="s7c4"></div>
+                        <div class="cell" id="s7c5"></div>
+
+                        <div class="cell" id="s7c6"></div>
+                        <div class="cell" id="s7c7"></div>
+                        <div class="cell" id="s7c8"></div>
+                    </div>
+                </div>
+                <div class="sector" id="s8">
+                    <div class="sectorBoard">
+                        <div class="cell" id="s8c0"></div>
+                        <div class="cell" id="s8c1"></div>
+                        <div class="cell" id="s8c2"></div>
+
+                        <div class="cell" id="s8c3"></div>
+                        <div class="cell" id="s8c4"></div>
+                        <div class="cell" id="s8c5"></div>
+
+                        <div class="cell" id="s8c6"></div>
+                        <div class="cell" id="s8c7"></div>
+                        <div class="cell" id="s8c8"></div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+    </main>
+
+    <script src="public/jquery-3.5.1.min.js"></script>
+	<script src="public/skrypty.js"></script>
+
+</body>
+</html>

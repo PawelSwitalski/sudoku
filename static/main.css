@@ -1,0 +1,68 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: medium;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+
+.board {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.sector {
+    width: 260px;
+    height: 262px;
+    border: 3px solid #51C8B2;
+	display: inline-flex;
+	margin-left: -2px;
+	margin-right: -2px;
+    
+}
+
+.sectorBoard {
+    width: 260px;
+    height: 260px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+}
+
+.cell {
+    width: 85px;
+    height: 86px;
+    border: 2px solid #51C8B2;
+    display: inline-flex;
+    margin: -3px;
+}
+
+.cellChanged {
+	cursor: pointer;
+}
+
+.cellChanged:hover {
+	position: relative;
+	border-color: yellow;
+}
+
+.chooseNumber {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+}
